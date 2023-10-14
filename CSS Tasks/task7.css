@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color: rgb(186, 68, 102);
+}
+
+table {
+    margin: 0 auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#input,
+textarea {
+    border: none;
+    padding: 0;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+input[type="button"] {
+    width: normal;
+}
+
+#submit {
+    width: auto;
+    margin-top: 10px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 120%;
+    padding: 1%;
+    border-radius: 8px;
+}

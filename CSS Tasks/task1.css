@@ -1,0 +1,17 @@
+table {
+    margin: auto;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+tr {
+    background-color: aquamarine;
+}
+
+th, td {
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+}

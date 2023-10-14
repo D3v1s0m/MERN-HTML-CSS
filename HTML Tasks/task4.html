@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Task 4 - Form</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    table tr {
+        height: 40px;
+    }
+
+    table td {
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    textarea,
+    select,
+    input[type="number"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        display: block;
+        width: auto;
+        margin: 0;
+    }
+</style>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="name">Full Name:</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your full name" required></td>
+            </tr>
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" id="username" name="username" placeholder="Enter your username" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" placeholder="Enter your password" required></td>
+            </tr>
+            <tr>
+                <td><label for="repassword">Re Password:</label></td>
+                <td><input type="password" id="repassword" name="repassword" placeholder="Re-enter your password" required></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea id="address" name="address" placeholder="Enter your address" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" id="age" name="age" placeholder="Enter your age" required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Save</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

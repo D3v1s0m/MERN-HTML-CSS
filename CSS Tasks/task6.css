@@ -1,0 +1,68 @@
+body {
+    width: 30%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the body both vertically and horizontally */
+}
+
+.inputHint {
+    color: black;
+    font-weight: 600;
+    font-size: 120%;
+}
+
+#uname {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+}
+
+#pass {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+}
+
+.login-button {
+    background-color: rgb(19, 151, 19);
+}
+
+.login-button p {
+    text-align: center;
+    padding: 1.6%;
+    font-weight: 600;
+    font-size: 172%;
+    color: white;
+}
+
+.rem {
+    font-weight: 600;
+}
+
+.cancel-button {
+    background-color: red;
+    width: 10%;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+}
+
+#bottom-nav {
+    margin: auto;
+    width: 100%;
+}
